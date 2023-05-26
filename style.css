@@ -283,7 +283,7 @@ body{
 }
 .icons li{
     list-style-type: none;
-    background: rgba(245, 245, 245);
+    background: #2194ff;
     color: #fff;
     width: 40px;
     height: 40px;
