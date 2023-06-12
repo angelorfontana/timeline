@@ -15,7 +15,7 @@
             <div>
               <div class = "shadow">
                 <div class = "about-img">
-                  <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt = "about image">
+                  <img src = "/img/profile.png" alt = "about image">
                 </div>
               </div>
   
@@ -26,33 +26,31 @@
             <ul class = "icons">
               <li>CV</li>
               <li>
-                <a href="https://wa.me/5562981595863?text=Ola Meu nome é Angelo Ricardo Fontana em que posso ser útil?" target="_blank" >
-                <i class="fa-brands fa-whatsapp"></i>
-              </a>
-            </li>
-              <li><i class = "fab fa-linkedin"></i></li>
+                <a href="https://wa.me/5562981595863" target="_blank" ><i class="fa-brands fa-whatsapp"></i> </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://www.linkedin.com/in/angelo-ricardo-fontana-3a17b039"> 
+                    <i class = "fab fa-linkedin"></i>
+                </a>
+              </li>
               <li><a href ="https://github.com/angelorfontana" target="_blank"> 
-                <i class="fa-brands fa-github"></i></a></li>
+                <i class="fa-brands fa-github"></i></a>
+              </li>
             </ul>
-          </div>
+        </div>
         </div>
   
         <div class = "about-right">
-          <h1 id="hello"></h1>
-          <h2 id="hello2"></h2>
-          <!--
-
-              <div class = "about-btns">
-                  <button type = "button" class = "btn btn-pink">resume / CV</button>
-                  <a href ="https://github.com/angelorfontana" target="_blank"> 
-                      <button type = "button" class = "btn btn-white">Git hub</button>
-                    </a>
-                    <button type = "button" class = "btn btn-white"> <i class="fa-duotone fa-flag-usa"></i> </button>
-                </div>
-                -->
-
             
-
+            <div class = "icons">
+                <h1 id="hello"></h1>
+               <!--
+                   <button type = "button" class = "btn btn-pink">resume / CV</button>
+               --> 
+                <button onclick="idioma(value)" id ="button_language" type = "button" class = "btn btn-white"></button>
+            </div>
+    
+          <h2 id="hello2"></h2>
   
           <div class = "about-para">
             <h5 Align="justify">
@@ -69,128 +67,134 @@
             <h1>Time line</h1>
             <ul>
                 <li style="--accent-color:#4fe24a">
-                    <div class="date">date</div>
-                    <div class="title">Project, Softwere, Modules or Milestones</div>
-                    <div class="descr">Description, Resultes end Skills</div>
-                    <div class="descr">The color represents company where worked. Same cor same company.</div>
-                    
+                    <div class="date" id="data" ></div>
+                    <div class="title" id="Titulo_data"></div>
+                    <div class="descr" id="data_desc01" ></div>
+                    <div class="descr" id="data_complemento"></div>
                 </li>
                 <li style="--accent-color:#E24A68">
-                    <div class="date">2018 - 2023</div>
-                    <div class="title">Play sistemas inteligentes</div>
-                    <div class="descr"></div>
+                    <div class="date" id="a01"></div>
+                    <div class="title" id="b01"></div>
+                    <div class="descr" id="c01"></div>
+                </li>
+
+                <li style="--accent-color:#E24A68">
+                    <div class="date" id="a02"></div>
+                    <div class="title" id="b02"></div>
+                    <div class="descr" id="c02"></div>
+                </li>
+
+                <li style="--accent-color:#E24A68">
+                    <div class="date" id="a03"></div>
+                    <div class="title" id="b03"></div>
+                    <div class="descr" id="c03"></div>
+                </li>
+
+                <li style="--accent-color:#E24A68">
+                    <div class="date" id="a04"></div>
+                    <div class="title" id="b04"></div>
+                    <div class="descr" id="c04"></div>
+                </li>
+                
+                <li style="--accent-color:#E24A68">
+                    <div class="date" id="a05"></div>
+                    <div class="title" id="b05"></div>
+                    <div class="descr" id="c05"></div>
                 </li>
                 <li style="--accent-color:#1B5F8C">
-                    <div class="date">2015 - 2018</div>
-                    <div class="title">JAAEPEL</div>
-                    <div class="descr">.</div>
+                    <div class="date" id="a06"></div>
+                    <div class="title" id="b06"></div>
+                    <div class="descr" id="c06"></div>
                 </li>
-                
                 <li style="--accent-color:#4CADAD">
-                    <div class="date">2014</div>
-                    <div class="title">CUMON</div>
-                    <div class="descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.</div>
+                    <div class="date" id="a07"></div>
+                    <div class="title" id="b07"></div>
+                    <div class="descr" id="c07"></div>
                 </li>
-                
-                <li style="--accent-color:#41516C">
-                    <div class="date">2014</div>
-                    <div class="title">PLN </div>
-                    <div id="descr" class="descr">Angelos </div>
-                </li>
-                <li style="--accent-color:#E24A68">
-                    <div class="date">2014</div>
-                    <div class="title">Second framework for accelerating and automating software development.</div>
-                    <div class="descr">......</div>
-                </li>
-            
-                <li style="--accent-color:#FBCA3E">
-                    <div class="date">2014</div>
-                    <div class="title">OFF Line Production - Second big proactive work.</div>
-                    <div class="descr">Industry was experiencing serious connectivity problems, many inconveniences were generated because we did not record inventory addressing operations and production notes.</div>
-                    <div class="descr">Implementation of the software in three companies.</div>
-                    <div class="descr">Object oriented architecture, DotNet Mobile, Apache, PHP, Mysql, SQLServer and ADVPL.</div>
-                </li>
-            
-                <li style="--accent-color:#FBCA3E">
-                    <div class="date">2013</div>
-                    <div class="title">Cockpit - Logistico.</div>
-                    <div class="descr">Object oriented architecture, DotNet Mobile, Apache, PHP, Mysql, SQLServer and ADVPL.</div>
-                </li>
-                
-                <li style="--accent-color:#E24A68">
-                    <div class="date">2007 - 2012</div>
-                    <div class="title">Management system for the packaging industry</div>
-                    <div class="descr">......</div>
-                </li>
-            
-                <li style="--accent-color:#E24A68">
-                    <div class="date">2007</div>
-                    <div class="title">FSC control management system</div>
-                    <div class="descr">......</div>
-                </li>
-            
+
                 <li style="--accent-color:#1B5F8C">
-                    <div class="date">2004 - 2006</div>
-                    <div class="title">Forest management system</div>
-                    <div class="descr">Requirements analyst, software architect and programmer.</div>
-                    <div class="descr">ADVPL language for some business processes and integration with other software.</div>
+                    <div class="date" id="a08"></div>
+                    <div class="title" id="b08"></div>
+                    <div class="descr" id="c08"></div>
+                </li>
+
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a09"></div>
+                    <div class="title" id="b09"></div>
+                    <div class="descr" id="c09"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a10"></div>
+                    <div class="title" id="b10"></div>
+                    <div class="descr" id="c10"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a11"></div>
+                    <div class="title" id="b11"></div>
+                    <div class="descr" id="c11"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a12"></div>
+                    <div class="title" id="b12"></div>
+                    <div class="descr" id="c12"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a13"></div>
+                    <div class="title" id="b13"></div>
+                    <div class="descr" id="c13"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a14"></div>
+                    <div class="title" id="b14"></div>
+                    <div class="descr" id="c14"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a15"></div>
+                    <div class="title" id="b15"></div>
+                    <div class="descr" id="c15"></div>
+                </li>
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a16"></div>
+                    <div class="title" id="b16"></div>
+                    <div class="descr" id="c16"></div>
+                </li>
+
+                
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a17"></div>
+                    <div class="title" id="b17"></div>
+                    <div class="descr" id="c17"></div>
+                </li>
+
+
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a18"></div>
+                    <div class="title" id="b18"></div>
+                    <div class="descr" id="c18"></div>
                 </li>
                 
-                <li style="--accent-color:#4CADAD">
-                    <div class="date">2004</div>
-                    <div class="title">Dynamic Queries - First big proactive work</div>
-                    <div class="descr">The company was having problems with slowness and constant database locks. At the time we had many SQL queries in excel spreadsheets. I developed a specific algorithm to dynamically process SQL queries. Controlled the problem and the system became a very useful and agile report generator for the time</div>
-                    <div id="descr" class="descr">ADVPL Proprietary language of the company's ERP, SQLServer Database</div>
-                </li>
-            
-                <li style="--accent-color:#41516C">
-                    <div class="date">2003</div>
-                    <div class="title">PHP Language, MySql Database</div>
-                    <div id="descr" class="descr">Maintenance and development of the intranet. I developed a virtual store, surveys and news</div>
-                    <div id="descr" class="descr">PHP Language, MySql Database</div>
-                </li>
-            
-            
-                <li style="--accent-color:#FBCA3E">
-                    <div class="date">2003 - 2015</div>
-                    <div class="title">Second job in CELULOSE IRANI SA, paper and corrugated cardboard industry</div>
-                    <div class="descr"></div>
-                </li>
-            
-                <li style="--accent-color:#E24A68">
-                    <div class="date">2001 - 2003</div>
-                    <div class="title">Commerce - ERP Software for small busines</div>
-                    <div class="descr">First Job na empresa in Mult-Software LTDA</div>
-                    <div class="descr">Contratado especificamente para desenvolver o software.</div>
-                    <div class="descr">Recrutado por bom desenpenho univercitario nas materias de programação, banco de dados e engenharia de software.</div>
-                    <div class="descr">Three Layers Architecture, Delphi Language, Interbase Database, Use cases UML to documentation, POO used more in the construction of components and screens, procedural programming</div>
-                </li>
-            
                 <li style="--accent-color:#1B5F8C">
-                    <div class="date">2000</div>
-                    <div class="title">Virtual store</div>
-                    <div class="descr">PHP Language, Mysql Database, Html, CSS</div>
+                    <div class="date"  id="a19"></div>
+                    <div class="title" id="b19"></div>
+                    <div class="descr" id="c19"></div>
                 </li>
-            
-                <li style="--accent-color:#4CADAD">
-                    <div class="date">1999</div>
-                    <div class="title">Dental office software</div>
-                    <div class="descr">First team-built software</div>
-                    <div class="descr">Client Server Architecture, Delphi Language, Interbase Database, Use cases UML to documentation, POO used more in the construction of components and screens, procedural programming</div>
-                </li>
-            
-                <li style="--accent-color:#4CADAD">
-                    <div class="date">1999</div>
-                    <div class="title">started computer science university</div>
-                    <div class="descr"></div>
+                
+                <li style="--accent-color:#1B5F8C">
+                    <div class="date"  id="a20"></div>
+                    <div class="title" id="b20"></div>
+                    <div class="descr" id="c20"></div>
                 </li>
             </ul>
-    
         </div>    
        </div>
 
 
-    <script> idioma("P")</script> 
+    <script> 
+    var url_string = window.location.href;
+    var url = new URL(url_string);
+    idioma(url.searchParams.get("language"))
+    
+    </script> 
 </body>
 </html>
 

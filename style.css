@@ -118,7 +118,9 @@ ul li .title,
 ul li .descr {
   background: var(--bgColor);
   position: relative;
-  padding-inline: 1.5rem;
+  padding-inline: 0.5rem;
+  text-indent: 15px;
+  text-align: justify; 
 }
 ul li .title {
   overflow: hidden;
@@ -300,6 +302,8 @@ body{
     background: #edffec;
     color: #000;
 }
+
+
 .about-right{
   background: #12192c;
   height: 100vh;
